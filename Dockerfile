@@ -58,6 +58,7 @@ COPY --chown=${USER_NAME}:${USER_NAME} docker/entrypoint.sh /opt/entrypoint.sh
 
 USER ${USER_NAME}
 
+
 # p2p port
 EXPOSE 30000
 #CMD [ "/bin/qgb" ]

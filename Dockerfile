@@ -6,7 +6,6 @@
 # WORKDIR /orchestrator-relayer
 # #RUN make build
 
-# final image
 #FROM --platform=$BUILDPLATFORM docker.io/alpine:3.18.3
 FROM --platform=$BUILDPLATFORM ubuntu:22.04
 

@@ -55,6 +55,7 @@ FROM --platform=$BUILDPLATFORM ghcr.io/celestiaorg/celestia-app:v1.0.0-rc15
 
 COPY --from=builder /orchestrator-relayer/build/qgb /bin/qgb
 COPY --chown=${USER_NAME}:${USER_NAME} docker/entrypoint.sh /opt/entrypoint.sh
+USER root
 
 #USER ${USER_NAME}
 

@@ -55,7 +55,7 @@ COPY . /orchestrator-relayer
 #COPY --from=builder /orchestrator-relayer/build/qgb /bin/qgb
 COPY --chown=${USER_NAME}:${USER_NAME} docker/entrypoint.sh /opt/entrypoint.sh
 
-USER ${USER_NAME}
+#USER ${USER_NAME}
 
 # p2p port
 EXPOSE 30000

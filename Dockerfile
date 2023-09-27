@@ -58,5 +58,4 @@ USER ${USER_NAME}
 
 # p2p port
 EXPOSE 30000
-
 #ENTRYPOINT [ "/bin/bash", "/opt/entrypoint.sh" ]

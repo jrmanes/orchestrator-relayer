@@ -48,6 +48,7 @@ ENV PATH="/usr/local/go/bin:${PATH}"
 
 COPY . /orchestrator-relayer
 
+
 # RUN make build
 # RUN cp build/qgb /bin/qgb
 
